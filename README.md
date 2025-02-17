@@ -8,15 +8,15 @@ dataset_paths = {
 	'ffhq_glass_test': 'path/to/your target test images', \
   }
 
+# Step 2: source environment, run script  
+
+Depends on which cluster you want to use:
+./train_Jeanzay.sh or 
+./train_IDS.sh
 
 
-# Step 2:  set paths for pretrained models' in train.sh
-For example:
+# Example for runing:
 
 python training_scripts/train.py --dataset_type=ffhq_glasses --stylegan_weights=./psp_ffhq_encode.pt --pSp_checkpoint_path=./stylegan2-ffhq1024.pt --exp_dir=results/baseline/
 
-# Step 3: source environment, run script:  
 
-./train_Jeanzay.sh or 
-./train_IDS.sh
-depends on which cluster you want to use

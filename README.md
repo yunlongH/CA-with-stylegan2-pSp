@@ -10,7 +10,7 @@ dataset_paths = {
 
 
 
-# Step 2,  Set paths for pretrained models' in train.sh
+# Step 2:  set paths for pretrained models' in train.sh
 
 python training_scripts/train.py \
 --dataset_type=ffhq_glasses \
@@ -19,5 +19,5 @@ python training_scripts/train.py \
 --exp_dir=results/baseline/
 
 
-# Step 2, source environment, run script:  ./train.sh
+# Step 3: source environment, run script:  ./train.sh
 

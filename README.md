@@ -19,5 +19,8 @@ python training_scripts/train.py \
 --exp_dir=results/baseline/
 
 
-# Step 3: source environment, run script:  ./train_Jeanzay.sh or ./train_IDS.sh
+# Step 3: source environment, run script:  
+
+./train_Jeanzay.sh or 
+./train_IDS.sh
 depends on which cluster you want to use

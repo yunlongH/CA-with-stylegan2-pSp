@@ -1,0 +1,12 @@
+digraph {
+	Input [label="Input (128)"]
+	H1 [label="Hidden Layer 1
+(256, ReLU)"]
+	H2 [label="Hidden Layer 2
+(128, ReLU)"]
+	Output [label="Output
+(10, Softmax)"]
+	Input -> H1
+	H1 -> H2
+	H2 -> Output
+}

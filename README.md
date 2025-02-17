@@ -1,5 +1,5 @@
 # Step 1:  set the dataset path in "./configs/paths_config.py" 
-Set the 4 paths:
+Set the 4 paths :
 
 dataset_paths = {
 	'ffhq_bg_train': 'path/to/your background train images',

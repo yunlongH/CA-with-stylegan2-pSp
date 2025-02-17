@@ -1,5 +1,6 @@
 # Step 1:  set the dataset path in "./configs/paths_config.py" 
-Set the 4 paths : background and target folder for train and test 
+
+Before running, set the four dataset paths: the background and target folders for training data, and the background and target folders for test data. We support .png images as input data.
 
 dataset_paths = {
 	'ffhq_bg_train': 'path/to/your background train images', \
@@ -13,7 +14,6 @@ dataset_paths = {
 Depends on which cluster you want to use:
 ./train_Jeanzay.sh or 
 ./train_IDS.sh
-
 
 # Example for runing:
 

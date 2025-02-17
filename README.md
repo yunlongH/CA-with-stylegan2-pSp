@@ -21,7 +21,5 @@ python training_scripts/train.py \
 --exp_dir=results/baseline/
 
 
-Finally, run script: 
-
-./train.sh
+Finally, run script:  ./train.sh
 

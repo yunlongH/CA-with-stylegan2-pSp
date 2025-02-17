@@ -20,3 +20,9 @@ Depends on which cluster you want to use:
 python training_scripts/train.py --dataset_type=ffhq_glasses --stylegan_weights=./psp_ffhq_encode.pt --pSp_checkpoint_path=./stylegan2-ffhq1024.pt --exp_dir=results/baseline/
 
 
+### Pretrained Models
+Please download the pre-trained models from the following links. Current we include pretrained pSp model and the pretrained .
+| Path | Description
+| :--- | :----------
+|[Pretrained pSp](https://drive.google.com/file/d/1bMTNWkh5LArlaWSc_wa8VKyq2V42T2z0/view?usp=sharing)  | pSp trained with the FFHQ dataset for StyleGAN.
+|[Pretrained StyleGAN2](https://drive.google.com/file/d/1EM87UquaoQmk17Q8d5kYIAHqu0dkYqdT/view?usp=sharing)  | StyleGAN model pretrained on FFHQ taken from [rosinality](https://github.com/rosinality/stylegan2-pytorch), used for training pSp and our model.

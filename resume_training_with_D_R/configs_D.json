@@ -1,0 +1,40 @@
+{
+    "baseline": {
+        "model_path": "./results/baseline/iteration_130000.pt",
+        "latent_hdf5_path": "./results/baseline/cmlp130k_latent",
+        "results_dir": "./results/baseline/130k_discriminator",
+        "num_layers": 2,
+        "max_epochs": 200,
+        "save_interval": 20,
+        "log_interval": 1,
+        "val_interval": 2,
+        "batch_size": 4,
+        "lr": 1e-4
+    },
+
+    "CA_with_D": {
+        "model_path": "./results/CA_with_D/CA_from_145k/config1/checkpoints/iteration_145600.pt",
+        "latent_hdf5_path": "./results/CA_with_D/latents/for_iter145600",
+        "results_dir": "./results/CA_with_D/discriminators/for_iter145600_3layers",
+        "num_layers": 3,
+        "max_epochs": 500,
+        "save_interval": 20,
+        "log_interval": 1,
+        "val_interval": 2,
+        "batch_size": 4,
+        "lr": 1e-5
+    },
+
+    "CA_with_RD": {
+        "model_path": "./results/CA_with_RD/CA_from_145k/config1_lambda_s0.0/checkpoints/iteration_145600.pt",
+        "latent_hdf5_path": "./results/CA_with_RD/latents/for_iter145600",
+        "results_dir": "./results/CA_with_RD/discriminators/for_iter145600_0.0_3layers",
+        "num_layers": 3,
+        "max_epochs": 500,
+        "save_interval": 20,
+        "log_interval": 1,
+        "val_interval": 2,
+        "batch_size": 4,
+        "lr": 1e-5
+    }
+}

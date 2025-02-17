@@ -1,0 +1,7 @@
+Detected GPU: NVIDIA A100-SXM4-80GB
+TORCH_CUDA_ARCH_LIST: 8.0
+True NVIDIA A100-SXM4-80GB
+Random Seed: 1349827546
+Arguments saved to ./results/adverserial_mutualR/1st_alternate/recontor_1e-3/args.json
+Loading pSp from checkpoint: ../pretrained_models/pSp_models/psp_ffhq_encode.pt
+Loading csmlp from path: ./results/baseline/iteration_130000.pt

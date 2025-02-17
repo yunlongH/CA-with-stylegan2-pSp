@@ -1,0 +1,32 @@
+Detected GPU: NVIDIA H100 80GB HBM3
+TORCH_CUDA_ARCH_LIST: 9.0
+True NVIDIA H100 80GB HBM3
+Namespace(model_ckpt_path='./results/CA_with_RD/CA_from_147200/stronglr1e-3_500ep_w1.0_onlyCt/checkpoints/iteration_148000.pt', reduced_dim=None, results_dir='./results/EVALUATION', random_seed=42, label_csv_path='./evaluation/results_age-gender-smile/latent_classification/glasses/labeled_glasses.csv', cls_type='bg-glasses')
+Loading pSp from checkpoint: ../pretrained_models/pSp_models/psp_ffhq_encode.pt
+Loading csmlp from path: ./results/CA_with_RD/CA_from_147200/stronglr1e-3_500ep_w1.0_onlyCt
+Loading dataset for ffhq_glasses
+Number of eval samples: 6890
+[0.77140784 0.75544267 0.75181422 0.77285922 0.75907112] [0.98330914 0.9862119  0.97895501 0.97605225 0.98040639] [0.98693759 0.98766328 0.98258345 0.98258345 0.98113208]
+accuracy target classif in C : cross validation 5 folds score : 0.7621190130624094 and standart deviation : 0.00850512936080324
+accuracy target classif in W : cross validation 5 folds score : 0.9809869375907112 and standart deviation : 0.0035074153769505227
+accuracy target classif in S : cross validation 5 folds score : 0.9841799709724238 and standart deviation : 0.0026124818577648676
+[0.77068215 0.76923077 0.74891147 0.77213353 0.76269956] [0.98403483 0.98548621 0.97822932 0.97460087 0.98040639] [0.98693759 0.98911466 0.98258345 0.98258345 0.98185776]
+accuracy target classif in C : cross validation 5 folds score : 0.7647314949201741 and standart deviation : 0.008542199692053517
+accuracy target classif in W : cross validation 5 folds score : 0.9805515239477505 and standart deviation : 0.003932138514991022
+accuracy target classif in S : cross validation 5 folds score : 0.9846153846153844 and standart deviation : 0.0028809046794309634
+[0.77793904 0.77866473 0.75979681 0.77721335 0.77140784] [0.98476052 0.98403483 0.97895501 0.97532656 0.98113208] [0.9862119  0.98766328 0.98258345 0.98258345 0.98113208]
+accuracy target classif in C : cross validation 5 folds score : 0.7730043541364295 and standart deviation : 0.00708653446486715
+accuracy target classif in W : cross validation 5 folds score : 0.9808417997097243 and standart deviation : 0.003452939696188783
+accuracy target classif in S : cross validation 5 folds score : 0.9840348330914368 and standart deviation : 0.0024716090516583972
+[0.7808418  0.78156749 0.76777939 0.77721335 0.78229318] [0.98476052 0.98403483 0.97822932 0.97532656 0.98040639] [0.9862119  0.98766328 0.98258345 0.98258345 0.9796807 ]
+accuracy target classif in C : cross validation 5 folds score : 0.7779390420899854 and standart deviation : 0.005372062561196444
+accuracy target classif in W : cross validation 5 folds score : 0.9805515239477505 and standart deviation : 0.003537317157316105
+accuracy target classif in S : cross validation 5 folds score : 0.983744557329463 and standart deviation : 0.0028515069237138426
+[0.7743106  0.7743106  0.75834543 0.77721335 0.78011611] [0.98403483 0.98548621 0.97750363 0.97605225 0.98040639] [0.9862119  0.98911466 0.98330914 0.98258345 0.97895501]
+accuracy target classif in C : cross validation 5 folds score : 0.7728592162554426 and standart deviation : 0.0075694657825284865
+accuracy target classif in W : cross validation 5 folds score : 0.9806966618287374 and standart deviation : 0.0036313486221180966
+accuracy target classif in S : cross validation 5 folds score : 0.9840348330914368 and standart deviation : 0.0034345891338749897
+[0.78809869 0.787373   0.77648766 0.79100145 0.78447025] [0.98476052 0.98476052 0.97895501 0.97605225 0.9796807 ] [0.9862119  0.98838897 0.98258345 0.98258345 0.98040639]
+accuracy target classif in C : cross validation 5 folds score : 0.7854862119013062 and standart deviation : 0.004955985799408961
+accuracy target classif in W : cross validation 5 folds score : 0.9808417997097243 and standart deviation : 0.003422300761263176
+accuracy target classif in S : cross validation 5 folds score : 0.9840348330914368 and standart deviation : 0.0028662434917462423

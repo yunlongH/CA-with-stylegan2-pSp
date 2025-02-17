@@ -1,0 +1,68 @@
+{
+    "baseline": {
+        "model_path": "./results/baseline/iteration_130000.pt",
+        "latent_hdf5_path": "./results/baseline/cmlp130k_latent",
+        "results_dir": "./results/baseline/TEST",
+        "max_epochs": 1000,
+        "log_interval": 1,
+        "val_interval": 20,
+        "save_interval": 20,
+        "batch_size": 4,
+        "n_c2s_layers": 12,
+        "network_type": "strong",
+        "loss_type": "mse",
+        "style_dim": 18,
+        "latent_dim": 512,
+        "lr": 0.0001
+    },
+    "CA_with_D": {
+        "model_path": "./results/CA_with_D/CA_from_140k/config1/checkpoints/iteration_145000.pt",
+        "latent_hdf5_path": "./results/CA_with_D/latents/for_iter145k_config1",
+        "results_dir": "./results/CA_with_D/reconstructors/for_iter145k_config1_strong",
+        "max_epochs": 1000,
+        "log_interval": 1,
+        "val_interval": 20,
+        "save_interval": 50,
+        "batch_size": 4,
+        "n_c2s_layers": 12,
+        "network_type": "strong",
+        "loss_type": "mse",
+        "style_dim": 18,
+        "latent_dim": 512,
+        "lr": 0.0001
+    },    
+    "CA_with_R": {
+        "model_path": "./results/CA_with_RD/CA_from_145600/config1_lambda_s0.0_lr5e-4/checkpoints/iteration_147200.pt",
+        "latent_hdf5_path": "./results/CA_with_R/latents/for_iter147200_config1",
+        "results_dir": "./results/CA_with_R/reconstructors/for_iter145k_config1_strong_pretrained",
+        "prev_train_path": "results/CA_with_R/reconstructors/for_iter140k_config1_strong/checkpoints/model_epoch_500.pth",
+        "max_epochs": 1000,
+        "log_interval": 1,
+        "val_interval": 20,
+        "save_interval": 50,
+        "batch_size": 4,
+        "n_c2s_layers": 12,
+        "network_type": "strong",
+        "loss_type": "mse",
+        "style_dim": 18,
+        "latent_dim": 512,
+        "lr": 0.0001
+    },
+    
+    "CA_with_RD": {
+        "model_path": "./results/CA_with_RD/CA_from_145600/config1_lambda_s0.1_lr5e-4/checkpoints/iteration_147200.pt",
+        "latent_hdf5_path": "./results/CA_with_RD/latents/for_iter147200_lambda_s0.1",
+        "results_dir": "./results/CA_with_RD/reconstructors/for_iter147200_wpsp_1e-4_12layers",
+        "max_epochs": 1000,
+        "log_interval": 1,
+        "val_interval": 20,
+        "save_interval": 50,
+        "batch_size": 4,
+        "n_c2s_layers": 12,
+        "network_type": "c2smlp",
+        "loss_type": "mse",
+        "style_dim": 18,
+        "latent_dim": 512,
+        "lr": 1e-4
+    }
+}

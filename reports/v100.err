@@ -1,0 +1,49 @@
+/lustre/fswork/projects/rech/ggs/uri15na/.conda/envs/styleGANenv/lib/python3.11/site-packages/torch/utils/cpp_extension.py:1964: UserWarning: TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'].
+  warnings.warn(
+/lustre/fswork/projects/rech/ggs/uri15na/.conda/envs/styleGANenv/lib/python3.11/site-packages/torch/utils/cpp_extension.py:1964: UserWarning: TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. 
+If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'].
+  warnings.warn(
+/lustre/fswork/projects/rech/ggs/uri15na/.conda/envs/styleGANenv/lib/python3.11/site-packages/torchvision/models/_utils.py:135: UserWarning: Using 'weights' as positional parameter(s) is deprecated since 0.13 and may be removed in the future. Please use keyword parameter(s) instead.
+  warnings.warn(
+/lustre/fswork/projects/rech/ggs/uri15na/.conda/envs/styleGANenv/lib/python3.11/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=AlexNet_Weights.IMAGENET1K_V1`. You can also use `weights=AlexNet_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "/lustre/fsn1/projects/rech/ggs/uri15na/3_code/styleGAN/pSp_h_pretrained_StyleGAN2/training_scripts/train.py", line 105, in <module>
+    main()
+  File "/lustre/fsn1/projects/rech/ggs/uri15na/3_code/styleGAN/pSp_h_pretrained_StyleGAN2/training_scripts/train.py", line 80, in main
+    coach.train()
+  File "/lustre/fsn1/projects/rech/ggs/uri15na/3_code/styleGAN/pSp_h_pretrained_StyleGAN2/training/coach_csmlp_baseline.py", line 156, in train
+    rec_x_t = self.pSp_net.forward(latent_t_c + latent_t_s, input_code=True, randomize_noise=True, recon_modle=True)	
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/lustre/fsn1/projects/rech/ggs/uri15na/3_code/styleGAN/pSp_h_pretrained_StyleGAN2/models/psp.py", line 113, in forward
+    images, result_latent = self.decoder([codes],
+                            ^^^^^^^^^^^^^^^^^^^^^
+  File "/lustre/fswork/projects/rech/ggs/uri15na/.conda/envs/styleGANenv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/lustre/fswork/projects/rech/ggs/uri15na/.conda/envs/styleGANenv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/lustre/fsn1/projects/rech/ggs/uri15na/3_code/styleGAN/pSp_h_pretrained_StyleGAN2/models/stylegan2/model.py", line 548, in forward
+    out = conv1(out, latent[:, i], noise=noise1)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/lustre/fswork/projects/rech/ggs/uri15na/.conda/envs/styleGANenv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/lustre/fswork/projects/rech/ggs/uri15na/.conda/envs/styleGANenv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/lustre/fsn1/projects/rech/ggs/uri15na/3_code/styleGAN/pSp_h_pretrained_StyleGAN2/models/stylegan2/model.py", line 338, in forward
+    out = self.conv(input, style)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/lustre/fswork/projects/rech/ggs/uri15na/.conda/envs/styleGANenv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/lustre/fswork/projects/rech/ggs/uri15na/.conda/envs/styleGANenv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/lustre/fsn1/projects/rech/ggs/uri15na/3_code/styleGAN/pSp_h_pretrained_StyleGAN2/models/stylegan2/model.py", line 260, in forward
+    out = F.conv_transpose2d(input, weight, padding=0, stride=2, groups=batch)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 514.00 MiB. GPU 0 has a total capacity of 31.73 GiB of which 398.69 MiB is free. Including non-PyTorch memory, this process has 31.34 GiB memory in use. Of the allocated memory 30.94 GiB is allocated by PyTorch, and 28.50 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

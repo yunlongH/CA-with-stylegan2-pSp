@@ -1,0 +1,33 @@
+{
+    "baseline": {
+        "dataset_type": "ffhq_glasses",
+        "exp_scheme": "disc_recon",
+        "cmlp_checkpoint_path": "./results/others/cmlp_baseline_h100/3Dmlp/checkpoints/iteration_130000.pt",
+        "disc_checkpoint_path": "./results/contrastiveR/c2smlp/checkpoints/model_epoch_80.pth",
+        "recon_checkpoint_path": "./results/contrastiveR/c2smlp/checkpoints/model_epoch_80.pth",
+        "exp_dir": "./results/contrastive_DR/",
+        "log_interval": 200,
+        "val_interval": 200,
+        "save_interval": 200,
+        "max_steps": 140000,
+        "mlp_norm_type": "nodim",
+        "n_c2s_layers": 12,
+        "c2s_net_type": "c2smlp",
+        "learning_rate": 0.001,
+        "w_cls_lambda": 1.0,
+        "w_recon_lambda": 1.0
+    },
+    "config_2": {
+        "model_path": "./results/baseline/iteration_130000.pt",
+        "latent_hdf5_path": "./results/baseline/cmlp130k_latent",
+        "results_dir": "./results/baseline/130k_discriminator",
+        "num_layers": 2,
+        "max_epochs": 200,
+        "save_interval": 20,
+        "log_interval": 1,
+        "val_interval": 2,
+        "batch_size": 4,
+        "lr": 1e-4,
+        "no_reproduce_latent": true
+    }
+}

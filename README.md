@@ -26,5 +26,5 @@ Please download the pre-trained models from the following links. Current we incl
 | :--- | :----------
 |[Pretrained pSp](https://drive.google.com/file/d/1bMTNWkh5LArlaWSc_wa8VKyq2V42T2z0/view?usp=sharing)  | pSp trained with the FFHQ dataset for StyleGAN.
 |[Pretrained StyleGAN2](https://drive.google.com/file/d/1EM87UquaoQmk17Q8d5kYIAHqu0dkYqdT/view?usp=sharing)  | StyleGAN model pretrained on FFHQ taken from [rosinality](https://github.com/rosinality/stylegan2-pytorch), used for training pSp and our model.
-|[Pretrained pSp_on_BraTS](https://drive.google.com/file/d/1nqXMxZV4B_W5GTRE-pk6iTc3wkswgNd_/view?usp=sharing) | pSp trained with the FFHQ dataset for StyleGAN.
-|[Pretrained StyleGAN2_BraTS]([https://drive.google.com/file/d/1EM87UquaoQmk17Q8d5kYIAHqu0dkYqdT/view?usp=sharing])  | StyleGAN model pretrained on BraTS dataset, used for training pSp and our model.
+|[Pretrained pSp_on_BraTS](https://drive.google.com/file/d/1nqXMxZV4B_W5GTRE-pk6iTc3wkswgNd_/view?usp=sharing) | pSp trained with the BraTS2023 dataset for StyleGAN.
+|[Pretrained StyleGAN2_BraTS](https://drive.google.com/file/d/1EM87UquaoQmk17Q8d5kYIAHqu0dkYqdT/view?usp=sharing)  | StyleGAN model pretrained on BraTS2023 dataset, used for training pSp and our model.

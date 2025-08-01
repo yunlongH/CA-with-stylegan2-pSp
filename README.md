@@ -15,13 +15,6 @@ CS-StyleGAN learns *common* and *salient* features between two image datasets (f
 
 ## Requirements
 
-* Python 3.7+
-* PyTorch ≥ 1.7
-* torchvision
-* numpy
-* tqdm
-  *(add or remove libraries as needed for your code)*
-
 Install all dependencies with:
 
 ```bash
@@ -98,23 +91,13 @@ For quantitative results, please see the main paper and Supplementary Material.
 
 If you use this code, please cite our work:
 
-```bibtex
-@inproceedings{YourCitationKey2024,
-  title={Learning Common and Salient Generative Factors Between Two Image Datasets},
-  author={Your Name and Collaborators},
-  booktitle={Conference Name},
-  year={2024}
-}
-```
-
-*Replace the citation with your own.*
 
 ---
 
 ## Contact
 
 For questions or issues, please open an issue or contact:
-\[[your.email@domain.com](mailto:your.email@domain.com)]
+
 
 ---
 

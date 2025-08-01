@@ -3,13 +3,13 @@
 **Learning Common and Salient Generative Factors Between Two Image Datasets**
 
 This repository contains the official PyTorch implementation for CS-StyleGAN, as described in our paper:
-*\[Learning Common and Salient Generative Factors Between Two Image Datasets]* (add link when available).
+*\[Learning Common and Salient Generative Factors Between Two Image Datasets]*
 
 ---
 
 ## Overview
 
-CS-StyleGAN disentangles and transfers both *common* and *salient* features between two related image datasets (for example, faces with and without glasses).
+CS-StyleGAN learns *common* and *salient* features between two image datasets (for example, faces with and without glasses).
 
 ---
 

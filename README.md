@@ -8,12 +8,7 @@ dataset_paths = {
 	'ffhq_bg_test': 'path/to/your background test images', \
 	'ffhq_glass_test': 'path/to/your target test images', \
   }
-
-# Step 2: source environment, run script  
-
-Depends on which cluster you want to use:
-./train_Jeanzay.sh or 
-./train_IDS.sh
+where "ffhq_bg", "ffhq_glass" are background (X) and target (Y) datasets we want to train, respectively, they could be FFHQ datasets without/with glasses.  
 
 # Example for runing:
 
@@ -21,7 +16,7 @@ python training_scripts/train.py --dataset_type=ffhq_glasses --stylegan_weights=
 
 
 # Pretrained Models
-Please download the pre-trained models from the following links. Current we include pretrained pSp model and the pretrained .
+Please download the pre-trained models from the following links. Current we include pretrained pSp model and the pretrained.
 | Path | Description
 | :--- | :----------
 |[Pretrained pSp](https://drive.google.com/file/d/1bMTNWkh5LArlaWSc_wa8VKyq2V42T2z0/view?usp=sharing)  | pSp trained with the FFHQ dataset for StyleGAN.

@@ -7,7 +7,7 @@ dataset_paths = {
 	'ffhq_glass_train': 'path/to/your target train images', \
 	'ffhq_bg_test': 'path/to/your background test images', \
 	'ffhq_glass_test': 'path/to/your target test images', \
-  } \\
+  } \
 where "ffhq_bg", "ffhq_glass" are background (X) and target (Y) datasets we want to train, respectively, they could be FFHQ datasets without/with glasses.  
 
 # Example for runing:

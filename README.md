@@ -65,7 +65,7 @@ Download the pretrained models:
 
 ---
 
-## Training
+## Training stage 1:
 
 Example command:
 
@@ -79,11 +79,36 @@ python training_scripts/train.py \
 
 ---
 
+## Training stage 2:
+
+Example command:
+
+```bash
+cd ./F_space refinement \
+python scripts/train.py \
+    exp.exp_dir=./experiments/ \
+    data.dataset=ffhq_glasses \
+    exp.config_dir=configs \
+    exp.config=fse_cs_editor_train.yaml \
+    exp.name=fse_cs_editor_train/pSp_encoder/ablation/ffhq_glasses_cs1s2 \
+    methods_args.fse_full.inverter_pth=./pretrained_models/sfe_inverter_light.pt \
+    train.train_runner=fse_editor_cs1s2 \
+    train.start_step=300000 \
+    train.direction=two_directions \
+    train.log_step=2000 \
+    train.val_step=2000 \
+    train.checkpoint_step=10000 \
+    data.special_idx=0 \
+    model.w_space_encoder=pSp \
+    model.stylegan_size=1024 \
+```
+
+---
+
+
 ## Results
 
-Additional results and qualitative examples are available in the `results/` directory and in the Supplementary Material.
-Our method can transfer detailed characteristics (such as the shape or shade of sunglasses) between datasets.
-For quantitative results, please see the main paper and Supplementary Material.
+For more results, please see the main paper and Supplementary Material.
 
 ---
 

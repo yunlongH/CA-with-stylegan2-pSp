@@ -1,0 +1,20 @@
+exp:
+  domain: human_faces
+
+model:
+  method: fse_full
+  device: "0"
+  batch_size: 1
+  workers: 1
+
+methods_args:
+  fse_full: {}
+
+
+data:
+  dataset:     ffhq_glasses
+  transform:   face_1024
+  special_idx: 1
+
+  
+    

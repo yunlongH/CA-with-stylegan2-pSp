@@ -10,7 +10,7 @@ This repository contains the official PyTorch implementation for CS-StyleGAN, as
 ## Overview
 
 <p align="center">
-  <img src="examples/examples.png" width="800px"/>
+  <img src="examples.png" width="800px"/>
   <br>
   Our framework learns <i>common</i> and <i>salient</i> factors for <b><span style="color:#3467eb;">Contrastive Analysis</span></b> on high-quality images.
   It supports not only the well-studied <b>Background and Target</b> scenario, where one dataset (target, e.g., <b>X</b>) contains one or two modified or added patterns compared to another dataset (background, e.g., <b>Y</b>), but also addresses the <b>multiple-salient</b> case, where both datasets are assumed to have their own distinctive patterns.

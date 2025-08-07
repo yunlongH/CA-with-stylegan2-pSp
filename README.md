@@ -5,8 +5,6 @@
 This repository contains the official PyTorch implementation for CS-StyleGAN, as described in our paper:
 *\[Learning Common and Salient Generative Factors Between Two Image Datasets]*
 
----
-
 ## Overview
 
 <p align="center">
@@ -15,8 +13,6 @@ This repository contains the official PyTorch implementation for CS-StyleGAN, as
   Our framework learns <i>common</i> and <i>salient</i> factors for <b><span style="color:#3467eb;">Contrastive Analysis</span></b> on high-quality images.
   It supports not only the most studied <b>Background/Target</b> assumption, where one dataset (target, e.g., <b>X</b>) contains one or two modified or added patterns compared to another dataset (background, e.g., <b>Y</b>), but also addresses the <b>multiple-salient</b> problem, where both datasets are assumed to have their own distinctive patterns.
 </p>
-
----
 
 
 ## Requirements

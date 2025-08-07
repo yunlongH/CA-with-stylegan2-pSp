@@ -24,7 +24,6 @@ pip install -r requirements.txt
 
 *(Generate this with `pip freeze > requirements.txt` after installing your environment.)*
 
----
 
 ## Dataset Setup
 

@@ -110,12 +110,15 @@ python scripts/train.py \
 
 For more results, please see the main paper and Supplementary Material.
 
+upcoming soon...
+
 ---
 
 ## Citation
 
 If you use this code, please cite our work:
 
+upcoming soon...
 
 ---
 
@@ -123,7 +126,6 @@ If you use this code, please cite our work:
 
 For questions or issues, please open an issue or contact:
 
+upcoming soon...
 
 ---
-
-Let me know if you want an **inference/evaluation** section, a troubleshooting guide, or anything else added!

@@ -10,8 +10,8 @@ This repository contains the official PyTorch implementation for CS-StyleGAN, as
 <p align="center">
   <img src="examples.png" width="800px"/>
   <br>
-  Our framework learns <i>common</i> and <i>salient</i> factors for <b><span style="color:#3467eb;">Contrastive Analysis</span></b> on high-quality images.
-  It supports not only the most studied <b>Background/Target</b> assumption, where one dataset (target, e.g., <b>X</b>) contains some modified/added patterns with respect to the second one (background, e.g., <b>Y</b>), but also addresses the <b>Multiple-Salient</b> problem, where both datasets are assumed to have their own distinctive patterns.
+  Our framework learns <i>common</i> and <i>salient</i> factors for <b><span style="color:#3467eb;">Contrastive Analysis (CA)</span></b> on high-quality images.
+  It handles not only the most studied <b>Background/Target</b> assumption of CA, where one dataset (target, e.g., <b>X</b>) contains some modified/added patterns with respect to the second one (background, e.g., <b>Y</b>), also the more challenging <b>Multiple-Salient</b> problem, where both datasets are assumed to have their own distinctive patterns (for example, glasses in X and a smile in Y).
 </p>
 
 ## Requirements

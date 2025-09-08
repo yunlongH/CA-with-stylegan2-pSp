@@ -151,7 +151,7 @@ _Update coming soon..._
 
 _Update coming soon..._
 
-## Acknowledgments
+# Acknowledgments
 This code borrows heavily from [pixel2style2pixel](https://github.com/eladrich/pixel2style2pixel), [StyleFeatureEditor](https://github.com/ControlGenAI/StyleFeatureEditor), and [diffae](https://github.com/phizaz/diffae)
 
 ---

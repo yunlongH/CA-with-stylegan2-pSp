@@ -108,25 +108,50 @@ python scripts/train.py \
 
 # CS-DiffusionAE
 
+The code for training the **CS-DiffusionAE** model can be found in `./CS-DiffusionAE/`.
 
+## Dataset
 
-## Results
+For faster training, it is recommended to preprocess the image data into **LMDB** format using:
+
+```bash
+python ./CS-DiffusionAE/train_cs/preprocess_lmdb.py
+```
+
+Otherwise, you can also use datasets in other formats (e.g., .png image folders) by modifying the dataset input part in `./CS-DiffusionAE/train_cs/train_common_salient_baseline.py`.
+
+## Training
+First, download the pretrained models from [diffae](https://github.com/phizaz/diffae).
+Example command for training **without image losses** (faster training but suboptimal results):
+
+```bash
+cd ./F_space refinement \
+# train with only latent loss (baseline)
+python train_cs/train_common_salient_baseline.py \
+    --results_dir=./results/layers2/lr=0.0001 \
+    --n_layers=2 \
+    --learning_rate=0.0001 \
+    --w_bg=10.0 \
+    --w_t=10.0 \
+    --w_sbg=10.0 \
+```
+
+Alternatively, modify `train_common_salient_full.py` to train the CS model **with image losses**.  
+In this case, you may need fewer training steps (around **4000**) to achieve good performance.
+
+# Results
 
 For more results, please see the main paper and Supplementary Material.
 
-upcoming soon...
+_Update coming soon..._
 
 ---
+
+# CS-Asyrp
+
+_Update coming soon..._
 
 ## Acknowledgments
 This code borrows heavily from [pixel2style2pixel](https://github.com/eladrich/pixel2style2pixel), [StyleFeatureEditor](https://github.com/ControlGenAI/StyleFeatureEditor), and [diffae](https://github.com/phizaz/diffae)
-
----
-
-## Contact
-
-For questions or issues, please open an issue or contact:
-
-upcoming soon...
 
 ---

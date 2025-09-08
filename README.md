@@ -1,7 +1,5 @@
 
-# CS-StyleGAN and CS-DiffusionAE
-
-Official PyTorch implementation of the paper:  
+Official PyTorch implementation of **CS-StyleGAN and CS-DiffusionAE**, as described in the paper:
 
 **Learning Common and Salient Generative Factors Between Two Image Datasets**
 
@@ -14,9 +12,9 @@ Official PyTorch implementation of the paper:
   It handles not only the most studied <b>Background/Target</b> assumption of CA, where one dataset (target, e.g., <b>X</b>) contains some modified/added patterns with respect to the second one (background, e.g., <b>Y</b>), but also the more challenging <b>Multiple-Salient</b> problem, where both datasets are assumed to have their own distinctive patterns (for example, glasses in <b>X</b> and a smile in <b>Y</b>).
 </p>
 
-# CS-StyleGAN
+## CS-StyleGAN
 
-## Requirements
+### Requirements
 
 Install all dependencies with:
 
@@ -24,7 +22,7 @@ Install all dependencies with:
 pip install -r requirements.txt
 ```
 
-## Dataset Setup
+### Dataset Setup
 
 Before training, set the dataset paths in `./configs/paths_config.py`.
 You need four folders:
@@ -51,7 +49,7 @@ dataset_paths = {
 
 ---
 
-## Pretrained Models
+### Pretrained Models
 
 Download the pretrained models:
 
@@ -64,7 +62,7 @@ Download the pretrained models:
 
 ---
 
-## Training stage 1:
+### Training stage 1:
 
 Example command:
 
@@ -78,7 +76,7 @@ python training_scripts/train.py \
 
 ---
 
-## Training stage 2:
+### Training stage 2:
 
 Example command:
 
@@ -104,11 +102,11 @@ python scripts/train.py \
 
 ---
 
-# CS-DiffusionAE
+## CS-DiffusionAE
 
 The code for training the **CS-DiffusionAE** model can be found in `./CS-DiffusionAE/`.
 
-## Dataset
+### Dataset
 
 For faster training, it is recommended to preprocess the image data into **LMDB** format using:
 
@@ -118,7 +116,7 @@ python ./CS-DiffusionAE/train_cs/preprocess_lmdb.py
 
 Otherwise, you can also use datasets in other formats (e.g., .png image folders) by modifying the dataset input part in `./CS-DiffusionAE/train_cs/train_common_salient_baseline.py`.
 
-## Training
+### Training
 First, download the pretrained models from [diffae](https://github.com/phizaz/diffae).
 
 Example command for training **without image losses** (faster training but suboptimal results):
@@ -138,16 +136,16 @@ python train_cs/train_common_salient_baseline.py \
 Alternatively, modify `train_common_salient_full.py` to train the CS model **with image losses**.  
 In this case, you may need fewer training steps (around **4000**) to achieve good performance.
 
-# CS-Asyrp (h-space of U-Net)
+## CS-Asyrp (h-space of U-Net)
 
 _Update coming soon..._
 
-# Acknowledgments
+## Acknowledgments
 This code borrows heavily from [pixel2style2pixel](https://github.com/eladrich/pixel2style2pixel), [StyleFeatureEditor](https://github.com/ControlGenAI/StyleFeatureEditor), [Asyrp](https://github.com/kwonminki/Asyrp_official), and [diffae](https://github.com/phizaz/diffae)
 
 ---
 
-# Contact
+## Contact
 
 For more implementation details and results, please see the main paper and Supplementary Material, or contact us via 
 

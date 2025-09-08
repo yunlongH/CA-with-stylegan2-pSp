@@ -1,6 +1,6 @@
 
 This repository contains the official PyTorch implementation for CS-StyleGAN and CS-DiffusionAE, as described in our paper:
-## Learning Common and Salient Generative Factors Between Two Image Datasets
+### Learning Common and Salient Generative Factors Between Two Image Datasets
 
 ## Overview
 

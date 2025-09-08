@@ -147,7 +147,7 @@ This code borrows heavily from [pixel2style2pixel](https://github.com/eladrich/p
 
 ## Contact
 
-For more implementation details and results, please see the main paper and Supplementary Material, or contact us via 
+For more implementation details, pretrained models, and results, please see the main paper and Supplementary Material, or contact us via 
 
 _Update coming soon..._
 

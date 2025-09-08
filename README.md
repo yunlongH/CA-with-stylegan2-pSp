@@ -117,6 +117,7 @@ Otherwise, you can also use datasets in other formats (e.g., .png image folders)
 
 ## Training
 First, download the pretrained models from [diffae](https://github.com/phizaz/diffae).
+
 Example command for training **without image losses** (faster training but suboptimal results):
 
 ```bash

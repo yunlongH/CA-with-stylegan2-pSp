@@ -13,6 +13,8 @@ This repository contains the official PyTorch implementation for CS-StyleGAN and
 
 # CS-StyleGAN
 
+The codes for CS-StyleGAN is modified 
+
 ## Requirements
 
 Install all dependencies with:
@@ -104,6 +106,9 @@ python scripts/train.py \
 
 ---
 
+# CS-DiffusionAE
+
+
 
 ## Results
 
@@ -113,11 +118,8 @@ upcoming soon...
 
 ---
 
-## Citation
-
-If you use this code, please cite our work:
-
-upcoming soon...
+## Acknowledgments
+This code borrows heavily from [pixel2style2pixel](https://github.com/eladrich/pixel2style2pixel), [StyleFeatureEditor](https://github.com/ControlGenAI/StyleFeatureEditor), and [diffae](https://github.com/phizaz/diffae)
 
 ---
 

@@ -1,0 +1,29 @@
+[rank: 0] Seed set to 0
+[rank: 0] Seed set to 0
+/home/ids/yuhe/anaconda3/envs/styleGAN2env/lib/python3.11/site-packages/lightning_fabric/connector.py:571: `precision=16` is supported for historical reasons but its usage is discouraged. Please set your precision to 16-mixed instead!
+Using 16bit Automatic Mixed Precision (AMP)
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+2025-02-10 16:59:35.338890: I tensorflow/core/util/port.cc:110] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-02-10 16:59:35.970745: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-02-10 16:59:37.894211: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+/home/ids/yuhe/anaconda3/envs/styleGAN2env/lib/python3.11/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:654: Checkpoint directory /home/ids/yuhe/Projects/CA_with_GAN/3_code/diffusion-AE/results/baseline/znorm exists and is not empty.
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name    | Type              | Params | Mode 
+------------------------------------------------------
+0 | model   | LitModel          | 336 M  | eval 
+1 | mlp     | MappingNetwork_cs | 6.3 M  | train
+2 | ema_mlp | MappingNetwork_cs | 6.3 M  | train
+------------------------------------------------------
+181 M     Trainable params
+168 M     Non-trainable params
+349 M     Total params
+1,398.368 Total estimated model params size (MB)
+198       Modules in train mode
+2151      Modules in eval mode
+SLURM auto-requeueing enabled. Setting signal handlers.
+slurmstepd-node14: error: *** JOB 281664 ON node14 CANCELLED AT 2025-02-11T12:47:48 DUE TO TIME LIMIT ***
+slurmstepd-node15: error: *** JOB 281672 ON node15 CANCELLED AT 2025-02-11T12:59:18 DUE TO TIME LIMIT ***

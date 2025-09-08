@@ -1,7 +1,8 @@
 
 # CS-StyleGAN and CS-DiffusionAE
 
-Official PyTorch implementation of our paper:  
+Official PyTorch implementation of the paper:  
+
 **Learning Common and Salient Generative Factors Between Two Image Datasets**
 
 ## Overview

@@ -136,19 +136,19 @@ python train_cs/train_common_salient_baseline.py \
 Alternatively, modify `train_common_salient_full.py` to train the CS model **with image losses**.  
 In this case, you may need fewer training steps (around **4000**) to achieve good performance.
 
-# Results
-
-For more results, please see the main paper and Supplementary Material.
-
-_Update coming soon..._
-
----
-
 # CS-Asyrp
 
 _Update coming soon..._
 
 # Acknowledgments
 This code borrows heavily from [pixel2style2pixel](https://github.com/eladrich/pixel2style2pixel), [StyleFeatureEditor](https://github.com/ControlGenAI/StyleFeatureEditor), and [diffae](https://github.com/phizaz/diffae)
+
+---
+
+# Contact
+
+For more implementation details and results, please see the main paper and Supplementary Material, or contact us via 
+
+_Update coming soon..._
 
 ---

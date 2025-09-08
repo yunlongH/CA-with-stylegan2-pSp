@@ -23,9 +23,6 @@ Install all dependencies with:
 pip install -r requirements.txt
 ```
 
-*(Generate this with `pip freeze > requirements.txt` after installing your environment.)*
-
-
 ## Dataset Setup
 
 Before training, set the dataset paths in `./configs/paths_config.py`.

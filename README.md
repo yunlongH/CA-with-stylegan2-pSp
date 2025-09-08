@@ -140,7 +140,7 @@ In this case, you may need fewer training steps (around **4000**) to achieve goo
 _Update coming soon..._
 
 # Acknowledgments
-This code borrows heavily from [pixel2style2pixel](https://github.com/eladrich/pixel2style2pixel), [StyleFeatureEditor](https://github.com/ControlGenAI/StyleFeatureEditor), and [diffae](https://github.com/phizaz/diffae)
+This code borrows heavily from [pixel2style2pixel](https://github.com/eladrich/pixel2style2pixel), [StyleFeatureEditor](https://github.com/ControlGenAI/StyleFeatureEditor), [Asyrp](https://github.com/kwonminki/Asyrp_official), and [diffae](https://github.com/phizaz/diffae)
 
 ---
 

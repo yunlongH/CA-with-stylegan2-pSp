@@ -13,8 +13,6 @@ This repository contains the official PyTorch implementation for CS-StyleGAN and
 
 # CS-StyleGAN
 
-The codes for CS-StyleGAN is modified 
-
 ## Requirements
 
 Install all dependencies with:

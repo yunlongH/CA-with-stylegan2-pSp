@@ -146,9 +146,7 @@ This code borrows heavily from [pixel2style2pixel](https://github.com/eladrich/p
 ---
 
 ## Contact
+If you have any questions about the code, implementation details, or pretrained models, please feel free to contact me at **ylh.icandoit@gmail.com**.
 
-For more implementation details, pretrained models, and results, please see the main paper and Supplementary Material, or contact us via 
-
-If you have any questions about the losses, the intuitions, or the math, please feel free to contact me at ylh.icandoit@gmail.com
 
 ---

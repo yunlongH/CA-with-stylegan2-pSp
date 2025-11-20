@@ -8,8 +8,14 @@ Official PyTorch implementation of **CS-StyleGAN and CS-DiffusionAE**, as descri
 <p align="center">
   <img src="CA_problems_examples.png" width="800px"/>
   <br>
-  Our framework learns <i>common</i> and <i>salient</i> factors for <b><span style="color:#3467eb;">Contrastive Analysis (CA)</span></b> on high-quality images.
-  It handles not only the most studied <b>Background/Target</b> assumption of CA, where one dataset (target, e.g., <b>X</b>) contains modified/added patterns with respect to the second one (background, e.g., <b>Y</b>), but also the more challenging <b>Multiple-Salient</b> problem, where both datasets are assumed to have their own distinctive patterns (for example, glasses in <b>X</b> and a smile in <b>Y</b>).
+  Our framework learns <i>common</i> and <i>salient</i> factors for 
+  <b><span style="color:#3467eb;">Contrastive Analysis (CA)</span></b> on high-quality images.
+  It addresses not only the standard <b>Background/Target</b> setting, 
+  where the target dataset (<b>Y</b>) contains modified or additional patterns compared to the background dataset (<b>X</b>), 
+  but also two more challenging scenarios: 
+  the <b>Multiple-Attributes</b> setting, where <b>Y</b> contains two salient patterns, 
+  and the <b>Multiple-Salient</b> setting, where both datasets contain their own distinctive patterns 
+  (e.g., glasses in <b>X</b> and a smile in <b>Y</b>).
 </p>
 
 ## CS-StyleGAN

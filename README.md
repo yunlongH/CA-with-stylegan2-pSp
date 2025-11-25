@@ -27,7 +27,7 @@ Recent advancements in image synthesis have enabled high-quality image generatio
   <img src="examples/interpolation_a_b.png" width="800px"/>
   <br>
   <span style="display:inline-block; max-width:800px; text-align:justify;">
-    Interpolations along the salient factors (S) for (a) a background sample x and a target sample y, and (b) two target samples y₁ and y₂.
+    Interpolations along the salient factors (S) for <b>(a)</b> a background sample x and a target sample y, and <b>(b)</b> two target samples y₁ and y₂.
   </span>
 </p>
 
@@ -37,21 +37,29 @@ Recent advancements in image synthesis have enabled high-quality image generatio
   <img src="examples/different_facial_attributes.png" width="800px"/>
   <br>
   <span style="display:inline-block; max-width:800px; text-align:justify;">
+    Multiple facial attributes (e.g., glasses, smile, hairstyle). For each attribute, the training dataset Y contains that attribute, which is absent from X.
   </span>
 </p>
 
----
+### Cat (X) vs. Dog (Y) from AFHQv2 dataset
+
+<p align="center">
+  <img src="examples/afhqv2_cat_dog.png" width="800px"/>
+  <br>
+  <span style="display:inline-block; max-width:800px; text-align:justify;">
+    Contrastive analysis on the AFHQv2 dataset, where X contains cat images and Y contains dog images.
+  </span>
+</p>
 
 ### Medical Imaging
 
 <p align="center">
-  <img src="fig_medical.png" width="800px"/>
+  <img src="brats_swap_sxsy_v1.png" width="800px"/>
   <br>
-  Application to medical imaging (e.g., BraTS / Camelyon16). 
-  X corresponds to healthy scans and Y to diseased/tumored scans. 
-  The model disentangles common anatomical structure from salient pathological patterns.
+  <span style="display:inline-block; max-width:800px; text-align:justify;">
+    Salient-factor swapping on MRI scans: X corresponds to healthy brains and Y to brains with tumors, illustrating how pathological patterns can be transferred while preserving anatomical structure.
+  </span>
 </p>
-
 
 
 ## Methods

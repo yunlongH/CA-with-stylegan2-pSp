@@ -60,11 +60,10 @@ Recent advancements in image synthesis have enabled high-quality image generatio
 - Supports **background/target**, **multi-attribute**, and **multi-salient** settings.
 ### CS-DiffusionAE (Diffusion autoencoder)
 - Extends the CA framework to diffusion models by building on **DiffAE**  
-  (see [DiffAE GitHub](https://github.com/phizaz/diffae)), supports **background/target** setting.
+  (see [DiffAE GitHub](https://github.com/phizaz/diffae) and codes in folder).
 ### CS-Asyrp (h-space of U-Net)
 - Applies the CA framework in the **h-space** of U-Net using the **Asyrp** architecture, supports **background/target** setting.
-- For full details and code, please refer to the dedicated repository:  
-  👉 https://github.com/ZiqianLiu666/Asyrp-h_space
+- For full details and code, please refer to the dedicated repository: https://github.com/ZiqianLiu666/Asyrp-h_space
 
 ---
 

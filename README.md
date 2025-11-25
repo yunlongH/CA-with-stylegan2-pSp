@@ -42,12 +42,10 @@ Recent advancements in image synthesis have enabled high-quality image generatio
 
 ---
 
-## Installation
+## Quick start
 
 ```bash
 pip install -r requirements.txt
-
-
 
 ### Dataset Setup
 

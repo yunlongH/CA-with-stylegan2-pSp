@@ -41,7 +41,7 @@ Recent advancements in image synthesis have enabled high-quality image generatio
   </span>
 </p>
 
-### Medical Imaging
+### Medical Imaging (BraTS dataset)
 
 <p align="center">
   <img src="examples/brats_swap_sxsy_v1.png" width="800px"/>

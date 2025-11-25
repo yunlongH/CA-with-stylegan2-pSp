@@ -34,9 +34,9 @@ Recent advancements in image synthesis have enabled high-quality image generatio
 ### Cat (X) vs. Dog (Y) from AFHQv2 dataset
 
 <p align="center">
-  <img src="examples/CatsDogs.png" width="800px"/>
+  <img src="examples/CatsDogs.png" width="600px"/>
   <br>
-  <span style="display:inline-block; max-width:800px; text-align:justify;">
+  <span style="display:inline-block; max-width:600px; text-align:justify;">
     Contrastive analysis on the AFHQv2 dataset, where X contains cat images and Y contains dog images.
   </span>
 </p>
@@ -44,9 +44,9 @@ Recent advancements in image synthesis have enabled high-quality image generatio
 ### Medical Imaging (BraTS dataset)
 
 <p align="center">
-  <img src="examples/brats_swap_sxsy_v1.png" width="800px"/>
+  <img src="examples/brats_swap_sxsy_v1.png" width="600px"/>
   <br>
-  <span style="display:inline-block; max-width:800px; text-align:justify;">
+  <span style="display:inline-block; max-width:600px; text-align:justify;">
     Salient-factor swapping on MRI scans: X corresponds to healthy brains and Y to brains with tumors, illustrating how pathological patterns can be transferred while preserving anatomical structure.
   </span>
 </p>

@@ -22,9 +22,9 @@ Recent advancements in image synthesis have enabled high-quality image generatio
 
 ### Latent Interpolations
 <p align="center">
-  <img src="fig_interpolations.png" width="800px"/>
+  <img src="examples/interpolation_a_b.png" width="800px"/>
   <br>
-  Interpolations along the salient factors (S) of background (x) and target (y), and that of two targets (y_1 and y_2).
+  Interpolations along the salient factors (S) of (a) background (x) and target (y), and (b) that of two targets (y_1 and y_2).
 </p>
 
 ### Multiple Facial Attributes

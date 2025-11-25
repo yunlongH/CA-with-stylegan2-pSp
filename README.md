@@ -7,13 +7,7 @@ Official PyTorch implementation of **CS-StyleGAN and CS-Diffusion**, from the pa
 
 ## Abstract
 
-Recent advancements in image synthesis have enabled high-quality image generation and manipulation. Most works focus on:  
-1) **conditional manipulation**, where an image is modified conditioned on a given attribute, or  
-2) **disentangled representation learning**, where each latent direction should represent a distinct semantic attribute.  
-
-This work focuses on a different and less studied research problem, called **Contrastive Analysis (CA)**. Given two image datasets, we want to separate the **common generative factors**, shared across the two datasets, from the **salient ones**, specific to only one dataset. Compared to existing methods, which use attributes as supervised signals for editing (e.g., glasses, gender), the proposed method is weaker, since it only uses the dataset signal. We propose a novel framework for CA that can be adapted to both **GAN** and **Diffusion** models to learn both common and salient factors. By defining new and well-adapted learning strategies and losses, we ensure a relevant separation between common and salient factors while preserving high-quality generation. We evaluate our approach on diverse datasets, covering human faces, animal images, and medical scans, and demonstrate superior separation ability and image quality compared to prior methods.
-
----
+Recent advancements in image synthesis have enabled high-quality image generation and manipulation. Most works focus on: 1) **conditional manipulation**, where an image is modified conditioned on a given attribute, or 2) **disentangled representation learning**, where each latent direction should represent a distinct semantic attribute. This work focuses on a different and less studied research problem, called **Contrastive Analysis (CA)**. Given two image datasets, we want to separate the **common** generative factors, shared across the two datasets, from the **salient** ones, specific to only one dataset. Compared to existing methods, which use attributes as supervised signals for editing (e.g., glasses, gender), the proposed method is weaker, since it only uses the dataset signal. We propose a novel framework for CA that can be adapted to both **GAN** and **Diffusion** models to learn both common and salient factors. By defining new and well-adapted learning strategies and losses, we ensure a relevant separation between common and salient factors while preserving high-quality generation. We evaluate our approach on diverse datasets, covering human faces, animal images, and medical scans, and demonstrate superior separation ability and image quality compared to prior methods.
 
 ## Overview
 
@@ -26,26 +20,25 @@ This work focuses on a different and less studied research problem, called **Con
   as well as <b>Multiple-Attributes</b> and <b>Multiple-Salient</b> scenarios.
 </p>
 
----
-
 ## Methods
 
 ### CS-StyleGAN (latent space of StyleGAN2)
 
-- Learns common/salient decomposition in the StyleGAN latent space.
-- Works with FFHQ, BraTS, and other datasets with paired/unpaired X/Y splits.
-- Supports background/target, multi-attribute, and multi-salient setups.
+- Applies the proposed CA framework in the latent space of StyleGAN2 (both **W+** and **F-space**).
+- Built on top of **pSp** and **StyleGAN2** backbones.
+- Evaluated on **FFHQ**, **AFHQv2**, and **BraTS** with X/Y (background/target) splits.
+- Supports **background/target**, **multi-attribute**, and **multi-salient** settings.
 
 ### CS-DiffusionAE (Diffusion autoencoder)
 
-- Extends the CA framework to diffusion models.
-- Operates either on the latent z-space or h-space (U-Net feature space).
-- Supports LMDB preprocessed datasets for efficient training.
+- Extends the CA framework to diffusion models by building on **DiffAE**  
+  (see [DiffAE GitHub](https://github.com/phizaz/diffae)). 
 
 ### CS-Asyrp (h-space of U-Net)
 
-For CS-Diffusion on h-space, please refer to the dedicated repository:<br>
-👉 https://github.com/ZiqianLiu666/Asyrp-h_space
+- Applies the CA framework in the **h-space** of U-Net using the **Asyrp** architecture.
+- For full details and code, please refer to the dedicated repository:  
+  👉 https://github.com/ZiqianLiu666/Asyrp-h_space
 
 ---
 

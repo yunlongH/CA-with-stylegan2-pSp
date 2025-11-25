@@ -66,6 +66,7 @@ Download the pretrained models:
 | [Pretrained pSp\_on\_BraTS](https://drive.google.com/file/d/1nqXMxZV4B_W5GTRE-pk6iTc3wkswgNd_/view?usp=sharing)   | pSp trained on BraTS2023                                                                                    |
 | [Pretrained StyleGAN2\_BraTS](https://drive.google.com/file/d/1KjEzuKW4-t62EuyRhJIOVChXh8q1WoaV/view?usp=sharing) | StyleGAN2 pretrained on BraTS2023                                                                           |
 
+For more pretrained models used in the paper, please contact to the author via yunlong.he@telecom-paris.fr.
 ---
 
 ### Training stage 1:
@@ -144,7 +145,7 @@ In this case, you may need fewer training steps (around **4000**) to achieve goo
 
 ## CS-Asyrp (h-space of U-Net)
 
-_Update coming soon..._
+All codes and implementations about CS-Diffusion on h-space be found at https://github.com/ZiqianLiu666/Asyrp-h_space.
 
 ## Acknowledgments
 This code borrows heavily from [pixel2style2pixel](https://github.com/eladrich/pixel2style2pixel), [StyleFeatureEditor](https://github.com/ControlGenAI/StyleFeatureEditor), [Asyrp](https://github.com/kwonminki/Asyrp_official), and [diffae](https://github.com/phizaz/diffae)

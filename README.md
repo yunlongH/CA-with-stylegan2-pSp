@@ -31,16 +31,6 @@ Recent advancements in image synthesis have enabled high-quality image generatio
   </span>
 </p>
 
-### Multiple Facial Attributes
-
-<p align="center">
-  <img src="examples/different_facial_attributes.png" width="800px"/>
-  <br>
-  <span style="display:inline-block; max-width:800px; text-align:justify;">
-    Multiple facial attributes (e.g., glasses, smile, hairstyle). For each attribute, the training dataset Y contains that attribute, which is absent from X.
-  </span>
-</p>
-
 ### Cat (X) vs. Dog (Y) from AFHQv2 dataset
 
 <p align="center">
@@ -54,7 +44,7 @@ Recent advancements in image synthesis have enabled high-quality image generatio
 ### Medical Imaging
 
 <p align="center">
-  <img src="brats_swap_sxsy_v1.png" width="800px"/>
+  <img src="examples/brats_swap_sxsy_v1.png" width="800px"/>
   <br>
   <span style="display:inline-block; max-width:800px; text-align:justify;">
     Salient-factor swapping on MRI scans: X corresponds to healthy brains and Y to brains with tumors, illustrating how pathological patterns can be transferred while preserving anatomical structure.

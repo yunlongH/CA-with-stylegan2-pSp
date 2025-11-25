@@ -15,17 +15,23 @@ Recent advancements in image synthesis have enabled high-quality image generatio
 <p align="center">
   <img src="CA_problems_examples.png" width="800px"/>
   <br>
-  Our framework learns <i>common</i> and <i>salient</i> factors for 
-  <b>Contrastive Analysis (CA)</b> on high-quality images.
-  It handles the typical <b>Background / Target</b> problem (X/Y), where only the target dataset (Y) contains a single salient attribute (e.g., glasses) absent from the background (X); the <b>Multiple-Attributes</b> setting, where the target dataset (Y) contains multiple salient attributes (e.g., glasses and smile); and the more challenging <b>Multiple-Salient</b> setting, where each of the datasets (X and Y) has its own distinct salient attribute (e.g., glasses in X, smile in Y).
+  <span style="display:inline-block; max-width:800px; text-align:justify;">
+    Our framework learns <i>common</i> and <i>salient</i> factors for 
+    <b>Contrastive Analysis (CA)</b> on high-quality images.
+    It handles the typical <b>Background / Target</b> problem (X/Y), where only the target dataset (Y) contains a single salient attribute (e.g., glasses) absent from the background (X); the <b>Multiple-Attributes</b> setting, where the target dataset (Y) contains multiple salient attributes (e.g., glasses and smile); and the more challenging <b>Multiple-Salient</b> setting, where each of the datasets (X and Y) has its own distinct salient attribute (e.g., glasses in X, smile in Y).
+  </span>
 </p>
 
 ### Latent Interpolations
 <p align="center">
   <img src="examples/interpolation_a_b.png" width="800px"/>
   <br>
-  Interpolations along the salient factors (S) of (a) background (x) and target (y), and (b) that of two targets (y_1 and y_2).
+  <span style="display:inline-block; max-width:800px; text-align:justify;">
+    Interpolations along the salient factors (S) for (a) a background sample X and a target sample Y, and (b) two target samples Y₁ and Y₂.
+  </span>
 </p>
+
+
 
 ### Multiple Facial Attributes
 

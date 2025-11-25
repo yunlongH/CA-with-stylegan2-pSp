@@ -1,59 +1,61 @@
 
-# 📘 CS-StyleGAN & CS-DiffusionAE  
-### Official PyTorch Implementation of  
-**Learning Common and Salient Generative Factors Between Two Image Datasets**
+# CS-StyleGAN & CS-DiffusionAE
+Official PyTorch implementation of **CS-StyleGAN and CS-Diffusion**, from the paper:<br>
+**“Learning Common and Salient Generative Factors Between Two Image Datasets”**
+
+---
+
+## Abstract
+
+Recent advancements in image synthesis have enabled high-quality image generation and manipulation. Most works focus on:  
+1) **conditional manipulation**, where an image is modified conditioned on a given attribute, or  
+2) **disentangled representation learning**, where each latent direction should represent a distinct semantic attribute.  
+
+This work focuses on a different and less studied research problem, called **Contrastive Analysis (CA)**. Given two image datasets, we want to separate the **common generative factors**, shared across the two datasets, from the **salient ones**, specific to only one dataset. Compared to existing methods, which use attributes as supervised signals for editing (e.g., glasses, gender), the proposed method is weaker, since it only uses the dataset signal.  
+
+We propose a novel framework for CA that can be adapted to both **GAN** and **Diffusion** models to learn both common and salient factors. By defining new and well-adapted learning strategies and losses, we ensure a relevant separation between common and salient factors while preserving high-quality generation. We evaluate our approach on diverse datasets, covering human faces, animal images, and medical scans, and demonstrate superior separation ability and image quality compared to prior methods.
+
+---
+
+## Overview
 
 <p align="center">
   <img src="CA_problems_examples.png" width="800px"/>
   <br>
-  Our framework learns <i>common</i> and <i>salient</i> generative factors for 
-  <b><span style="color:#3467eb;">Contrastive Analysis (CA)</span></b> on high-quality images.
-  It handles not only the classic <b>Background / Target</b> setting, 
-  but also harder scenarios such as 
-  <b>Multiple-Attributes</b> and <b>Multiple-Salient</b> domains.
+  Our framework learns <i>common</i> and <i>salient</i> factors for 
+  <b>Contrastive Analysis (CA)</b> on high-quality images.
+  It handles the classic <b>Background / Target</b> setting (X/Y),
+  as well as <b>Multiple-Attributes</b> and <b>Multiple-Salient</b> scenarios.
 </p>
 
 ---
 
-# ⭐ Table of Contents
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [Dataset Setup](#dataset-setup)
-- [Pretrained Models](#pretrained-models)
-- [CS-StyleGAN Training](#cs-stylegan-training)
-- [CS-DiffusionAE](#cs-diffusionae)
-- [CS-Asyrp (h-space)](#cs-asyrp-h-space)
-- [Acknowledgments](#acknowledgments)
-- [Citation](#citation)
-- [Contact](#contact)
+## Methods
+
+### CS-StyleGAN (latent space of StyleGAN2)
+
+- Learns common/salient decomposition in the StyleGAN latent space.
+- Works with FFHQ, BraTS, and other datasets with paired/unpaired X/Y splits.
+- Supports background/target, multi-attribute, and multi-salient setups.
+
+### CS-DiffusionAE (Diffusion autoencoder)
+
+- Extends the CA framework to diffusion models.
+- Operates either on the latent z-space or h-space (U-Net feature space).
+- Supports LMDB preprocessed datasets for efficient training.
+
+### CS-Asyrp (h-space of U-Net)
+
+For CS-Diffusion on h-space, please refer to the dedicated repository:<br>
+👉 https://github.com/ZiqianLiu666/Asyrp-h_space
 
 ---
 
-# 🧠 Introduction
-
-This repository contains the official PyTorch implementation of **CS-StyleGAN** and **CS-DiffusionAE**, two generative models designed to *separate common and salient generative factors* between two related datasets.
-
-Given:
-- **X (background)** dataset  
-- **Y (target)** dataset  
-
-Our models learn:
-- **C** → common latent factors shared by X and Y  
-- **S** → salient latent factors unique to X or Y  
-
-Applications include:
-- Salient attribute transfer  
-- Controlled semantic editing  
-- Contrastive generative analysis
-
----
-
-# 🔧 Installation
-
-Install dependencies with:
+## Installation
 
 ```bash
 pip install -r requirements.txt
+
 
 
 ### Dataset Setup

@@ -9,8 +9,9 @@
 Recent advancements in image synthesis have enabled high-quality image generation and manipulation. Most works focus on: 1) <b>conditional manipulation</b>, where an image is modified conditioned on a given attribute, or 2) <b>disentangled representation learning</b>, where each latent direction should represent a distinct semantic attribute. This work focuses on a different and less studied research problem, called <b>Contrastive Analysis (CA)</b>. Given two image datasets, we want to separate the <b>common</b> generative factors, shared across the two datasets, from the <b>salient</b> ones, specific to only one dataset. Compared to existing methods, which use attributes as supervised signals for editing (e.g., glasses, gender), the proposed method is weaker, since it only uses the dataset signal. We propose a novel framework for CA that can be adapted to both <b>GAN</b> and <b>Diffusion</b> models to learn both common and salient factors. By defining new and well-adapted learning strategies and losses, we ensure a relevant separation between common and salient factors while preserving high-quality generation. We evaluate our approach on diverse datasets, covering human faces, animal images, and medical scans, and demonstrate superior separation ability and image quality compared to prior methods.
 </p>
 
-## Overview
+## Qualitative Examples
 
+### Contrastive Analysis
 <p align="center">
   <img src="CA_problems_examples.png" width="800px"/>
   <br>
@@ -18,6 +19,36 @@ Recent advancements in image synthesis have enabled high-quality image generatio
   <b>Contrastive Analysis (CA)</b> on high-quality images.
   It handles the typical <b>Background / Target</b> problem (X/Y), where only the target dataset (Y) contains a single salient attribute (e.g., glasses) absent from the background (X); the <b>Multiple-Attributes</b> setting, where the target dataset (Y) contains multiple salient attributes (e.g., glasses and smile); and the more challenging <b>Multiple-Salient</b> setting, where each of the datasets (X and Y) has its own distinct salient attribute (e.g., glasses in X, smile in Y).
 </p>
+
+### Latent Interpolations
+<p align="center">
+  <img src="fig_interpolations.png" width="800px"/>
+  <br>
+  Interpolations along the salient factors (S) of background (x) and target (y), and that of two targets (y_1 and y_2).
+</p>
+
+### Multiple Facial Attributes
+
+<p align="center">
+  <img src="fig_multi_attributes.png" width="800px"/>
+  <br>
+  Examples on human faces with multiple salient attributes (e.g., glasses, smile, hairstyle). 
+  Our model isolates and recombines multiple attributes across X/Y datasets.
+</p>
+
+---
+
+### Medical Imaging
+
+<p align="center">
+  <img src="fig_medical.png" width="800px"/>
+  <br>
+  Application to medical imaging (e.g., BraTS / Camelyon16). 
+  X corresponds to healthy scans and Y to diseased/tumored scans. 
+  The model disentangles common anatomical structure from salient pathological patterns.
+</p>
+
+
 
 ## Methods
 

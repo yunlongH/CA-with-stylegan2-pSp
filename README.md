@@ -3,8 +3,6 @@
 Official PyTorch implementation of **CS-StyleGAN and CS-Diffusion**, from the paper:<br>
 **“Learning Common and Salient Generative Factors Between Two Image Datasets”**
 
----
-
 ## Abstract
 
 Recent advancements in image synthesis have enabled high-quality image generation and manipulation. Most works focus on: 1) **conditional manipulation**, where an image is modified conditioned on a given attribute, or 2) **disentangled representation learning**, where each latent direction should represent a distinct semantic attribute. This work focuses on a different and less studied research problem, called **Contrastive Analysis (CA)**. Given two image datasets, we want to separate the **common** generative factors, shared across the two datasets, from the **salient** ones, specific to only one dataset. Compared to existing methods, which use attributes as supervised signals for editing (e.g., glasses, gender), the proposed method is weaker, since it only uses the dataset signal. We propose a novel framework for CA that can be adapted to both **GAN** and **Diffusion** models to learn both common and salient factors. By defining new and well-adapted learning strategies and losses, we ensure a relevant separation between common and salient factors while preserving high-quality generation. We evaluate our approach on diverse datasets, covering human faces, animal images, and medical scans, and demonstrate superior separation ability and image quality compared to prior methods.

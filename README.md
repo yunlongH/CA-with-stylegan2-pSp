@@ -16,8 +16,7 @@ Recent advancements in image synthesis have enabled high-quality image generatio
   <br>
   Our framework learns <i>common</i> and <i>salient</i> factors for 
   <b>Contrastive Analysis (CA)</b> on high-quality images.
-  It handles the classic <b>Background / Target</b> setting (X/Y),
-  as well as <b>Multiple-Attributes</b> and <b>Multiple-Salient</b> scenarios.
+  It handles the typical <b>Background / Target</b> problem (X/Y), where only the target dataset (Y) contains a single salient attribute (e.g., glasses) absent from the background (X); the <b>Multiple-Attributes</b> setting, where the target dataset (Y) contains multiple salient attributes (e.g., glasses and smile); and the more challenging <b>Multiple-Salient</b> setting, where each of the datasets (X and Y) has its own distinct salient attribute (e.g., glasses in X, smile in Y).
 </p>
 
 ## Methods
@@ -25,7 +24,6 @@ Recent advancements in image synthesis have enabled high-quality image generatio
 ### CS-StyleGAN (latent space of StyleGAN2)
 
 - Applies the proposed CA framework in the latent space of StyleGAN2 (both **W+** and **F-space**).
-- Built on top of **pSp** and **StyleGAN2** backbones.
 - Evaluated on **FFHQ**, **AFHQv2**, and **BraTS** with X/Y (background/target) splits.
 - Supports **background/target**, **multi-attribute**, and **multi-salient** settings.
 

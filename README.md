@@ -1,32 +1,60 @@
 
-Official PyTorch implementation of **CS-StyleGAN and CS-DiffusionAE**, as described in the paper:
-
+# 📘 CS-StyleGAN & CS-DiffusionAE  
+### Official PyTorch Implementation of  
 **Learning Common and Salient Generative Factors Between Two Image Datasets**
-
-## Overview
 
 <p align="center">
   <img src="CA_problems_examples.png" width="800px"/>
   <br>
-  Our framework learns <i>common</i> and <i>salient</i> factors for 
+  Our framework learns <i>common</i> and <i>salient</i> generative factors for 
   <b><span style="color:#3467eb;">Contrastive Analysis (CA)</span></b> on high-quality images.
-  It addresses not only the standard <b>Background/Target</b> setting, 
-  where the target dataset (<b>Y</b>) contains modified or additional patterns compared to the background dataset (<b>X</b>), 
-  but also two more challenging scenarios: 
-  the <b>Multiple-Attributes</b> setting, where <b>Y</b> contains two salient patterns, 
-  and the <b>Multiple-Salient</b> setting, where both datasets contain their own distinctive patterns 
-  (e.g., glasses in <b>X</b> and a smile in <b>Y</b>).
+  It handles not only the classic <b>Background / Target</b> setting, 
+  but also harder scenarios such as 
+  <b>Multiple-Attributes</b> and <b>Multiple-Salient</b> domains.
 </p>
 
-## CS-StyleGAN
+---
 
-### Requirements
+# ⭐ Table of Contents
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Dataset Setup](#dataset-setup)
+- [Pretrained Models](#pretrained-models)
+- [CS-StyleGAN Training](#cs-stylegan-training)
+- [CS-DiffusionAE](#cs-diffusionae)
+- [CS-Asyrp (h-space)](#cs-asyrp-h-space)
+- [Acknowledgments](#acknowledgments)
+- [Citation](#citation)
+- [Contact](#contact)
 
-Install all dependencies with:
+---
+
+# 🧠 Introduction
+
+This repository contains the official PyTorch implementation of **CS-StyleGAN** and **CS-DiffusionAE**, two generative models designed to *separate common and salient generative factors* between two related datasets.
+
+Given:
+- **X (background)** dataset  
+- **Y (target)** dataset  
+
+Our models learn:
+- **C** → common latent factors shared by X and Y  
+- **S** → salient latent factors unique to X or Y  
+
+Applications include:
+- Salient attribute transfer  
+- Controlled semantic editing  
+- Contrastive generative analysis
+
+---
+
+# 🔧 Installation
+
+Install dependencies with:
 
 ```bash
 pip install -r requirements.txt
-```
+
 
 ### Dataset Setup
 

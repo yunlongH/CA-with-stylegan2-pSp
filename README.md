@@ -30,11 +30,11 @@ Recent advancements in image synthesis have enabled high-quality image generatio
 ### CS-DiffusionAE (Diffusion autoencoder)
 
 - Extends the CA framework to diffusion models by building on **DiffAE**  
-  (see [DiffAE GitHub](https://github.com/phizaz/diffae)). 
-
+  (see [DiffAE GitHub](https://github.com/phizaz/diffae)), supports **background/target** setting.
+  
 ### CS-Asyrp (h-space of U-Net)
 
-- Applies the CA framework in the **h-space** of U-Net using the **Asyrp** architecture.
+- Applies the CA framework in the **h-space** of U-Net using the **Asyrp** architecture, supports **background/target** setting.
 - For full details and code, please refer to the dedicated repository:  
   👉 https://github.com/ZiqianLiu666/Asyrp-h_space
 

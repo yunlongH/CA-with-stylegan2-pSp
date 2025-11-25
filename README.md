@@ -27,19 +27,17 @@ Recent advancements in image synthesis have enabled high-quality image generatio
   <img src="examples/interpolation_a_b.png" width="800px"/>
   <br>
   <span style="display:inline-block; max-width:800px; text-align:justify;">
-    Interpolations along the salient factors (S) for (a) a background sample X and a target sample Y, and (b) two target samples Y₁ and Y₂.
+    Interpolations along the salient factors (S) for (a) a background sample x and a target sample y, and (b) two target samples y₁ and y₂.
   </span>
 </p>
-
-
 
 ### Multiple Facial Attributes
 
 <p align="center">
-  <img src="fig_multi_attributes.png" width="800px"/>
+  <img src="examples/different_facial_attributes.png" width="800px"/>
   <br>
-  Examples on human faces with multiple salient attributes (e.g., glasses, smile, hairstyle). 
-  Our model isolates and recombines multiple attributes across X/Y datasets.
+  <span style="display:inline-block; max-width:800px; text-align:justify;">
+  </span>
 </p>
 
 ---

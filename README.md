@@ -31,7 +31,7 @@ Recent advancements in image synthesis have enabled high-quality image generatio
   </span>
 </p>
 
-### Cat (X) vs. Dog (Y) from AFHQv2 dataset
+### Animal images: Cat (X) vs. Dog (Y)
 
 <p align="center">
   <img src="examples/CatsDogs.png" width="600px"/>
@@ -41,7 +41,7 @@ Recent advancements in image synthesis have enabled high-quality image generatio
   </span>
 </p>
 
-### Medical Imaging (BraTS dataset)
+### Medical Imaging (brain MRI scans)
 
 <p align="center">
   <img src="examples/brats_swap_sxsy_v1.png" width="600px"/>

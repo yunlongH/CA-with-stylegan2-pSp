@@ -110,7 +110,6 @@ Download the pretrained models:
 | [Pretrained pSp\_on\_BraTS](https://drive.google.com/file/d/1nqXMxZV4B_W5GTRE-pk6iTc3wkswgNd_/view?usp=sharing)   | pSp trained on BraTS2023                                                                                    |
 | [Pretrained StyleGAN2\_BraTS](https://drive.google.com/file/d/1KjEzuKW4-t62EuyRhJIOVChXh8q1WoaV/view?usp=sharing) | StyleGAN2 pretrained on BraTS2023                                                                           |
 
-For more pretrained models used in the paper, please contact to the author via yunlong.he@telecom-paris.fr.
 ---
 
 ### Training stage 1:

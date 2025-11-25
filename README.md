@@ -44,7 +44,7 @@ Recent advancements in image synthesis have enabled high-quality image generatio
 ### Cat (X) vs. Dog (Y) from AFHQv2 dataset
 
 <p align="center">
-  <img src="examples/afhqv2_cat_dog.png" width="800px"/>
+  <img src="examples/CatsDogs.png" width="800px"/>
   <br>
   <span style="display:inline-block; max-width:800px; text-align:justify;">
     Contrastive analysis on the AFHQv2 dataset, where X contains cat images and Y contains dog images.

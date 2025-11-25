@@ -55,17 +55,21 @@ Recent advancements in image synthesis have enabled high-quality image generatio
 ## Methods
 
 ### CS-StyleGAN (latent space of StyleGAN2)
+
 - Applies the proposed CA framework in the latent space of StyleGAN2 (both **W+** and **F-space**).
 - Evaluated on **FFHQ**, **AFHQv2**, and **BraTS** with X/Y (background/target) splits.
-- Supports **background/target**, **multi-attribute**, and **multi-salient** settings.
-### CS-DiffusionAE (Diffusion autoencoder)
-- Extends the CA framework to diffusion models by building on **DiffAE**  
-  (see [DiffAE GitHub](https://github.com/phizaz/diffae) and codes in folder).
-### CS-Asyrp (h-space of U-Net)
-- Applies the CA framework in the **h-space** of U-Net using the **Asyrp** architecture, supports **background/target** setting.
-- For full details and code, please refer to the dedicated repository: https://github.com/ZiqianLiu666/Asyrp-h_space
+- Supports **Background/Target**, **Multiple-Attributes**, and **Multiple-Salient** settings.
 
----
+### CS-DiffusionAE (Diffusion autoencoder)
+
+- Extends the CA framework to diffusion models by building on **DiffAE**  
+  (see the original [DiffAE GitHub repository](https://github.com/phizaz/diffae) for backbone details).
+
+### CS-Asyrp (h-space of U-Net)
+
+- Applies the proposed CA framework in the **h-space** of a U-Net using an **Asyrp-based** DDIM reverse process  
+  (see the original [Asyrp GitHub repository](https://github.com/kwonminki/Asyrp_official) for backbone details).
+
 
 ## Quick start
 
@@ -188,7 +192,7 @@ In this case, you may need fewer training steps (around **4000**) to achieve goo
 
 ## CS-Asyrp (h-space of U-Net)
 
-All codes and implementations about CS-Diffusion on h-space be found at https://github.com/ZiqianLiu666/Asyrp-h_space.
+For full details and code, please refer to the dedicated repository: https://github.com/ZiqianLiu666/Asyrp-h_space 
 
 ## Acknowledgments
 This code borrows heavily from [pixel2style2pixel](https://github.com/eladrich/pixel2style2pixel), [StyleFeatureEditor](https://github.com/ControlGenAI/StyleFeatureEditor), [Asyrp](https://github.com/kwonminki/Asyrp_official), and [diffae](https://github.com/phizaz/diffae)

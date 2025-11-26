@@ -209,7 +209,7 @@ This code borrows heavily from [pixel2style2pixel](https://github.com/eladrich/p
 ---
 
 ## Contact
-If you have any questions about the code, implementation details, or pretrained models, please feel free to contact me at **ylh.icandoit@gmail.com**.
+If you have any questions about the code, implementation details, or you want to request for pretrained models, please feel free to contact me at **ylh.icandoit@gmail.com**.
 
 
 ---

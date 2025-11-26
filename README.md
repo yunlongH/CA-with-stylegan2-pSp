@@ -30,6 +30,13 @@ Recent advancements in image synthesis have enabled high-quality image generatio
     Interpolations along the salient factors (S) for <b>(a)</b> a background sample x and a target sample y, and <b>(b)</b> two target samples y₁ and y₂.
   </span>
 </p>
+<p align="center">
+  <img src="examples/pca_1st_direction.png" width="800px"/>
+  <br>
+  <span style="display:inline-block; max-width:800px; text-align:justify;">
+    Interpolations along the salient factors (S) for <b>(a)</b> a background sample x and a target sample y, and <b>(b)</b> two target samples y₁ and y₂.
+  </span>
+</p>
 
 ### Animal images: Cat (X) vs. Dog (Y)
 

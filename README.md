@@ -34,7 +34,7 @@ Recent advancements in image synthesis have enabled high-quality image generatio
   <img src="examples/pca_1st_direction.png" width="800px"/>
   <br>
   <span style="display:inline-block; max-width:800px; text-align:justify;">
-    Interpolations along the salient factors (S) for <b>(a)</b> a background sample x and a target sample y, and <b>(b)</b> two target samples y₁ and y₂.
+    Interpolations along the 1st PCA direction computed from the salients of Y dataset (contains both glasses and smiles).
   </span>
 </p>
 

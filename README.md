@@ -24,7 +24,7 @@ Recent advancements in image synthesis have enabled high-quality image generatio
   </span>
 </p>
 
-### Latent Interpolations
+### ***Latent Interpolations***
 <p align="center">
   <img src="examples/interpolation_a_b.png" width="800px"/>
   <br>
@@ -40,7 +40,7 @@ Recent advancements in image synthesis have enabled high-quality image generatio
   </span>
 </p>
 
-### Animal images: Cat (X) vs. Dog (Y)
+### ***Animal images: Cat (X) vs. Dog (Y)***
 
 <p align="center">
   <img src="examples/CatsDogs.png" width="600px"/>
@@ -50,7 +50,7 @@ Recent advancements in image synthesis have enabled high-quality image generatio
   </span>
 </p>
 
-### Medical Imaging (brain MRI scans)
+### ***Medical Imaging (brain MRI scans)***
 
 <p align="center">
   <img src="examples/brats_swap_sxsy_v1.png" width="600px"/>

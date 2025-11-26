@@ -12,7 +12,7 @@ Recent advancements in image synthesis have enabled high-quality image generatio
 ## Qualitative Examples
 
 
-### _Contrastive Analysis
+### ***Contrastive Analysis***
 
 <p align="center">
   <img src="CA_problems_examples.png" width="800px"/>

@@ -11,7 +11,10 @@ Recent advancements in image synthesis have enabled high-quality image generatio
 
 ## Qualitative Examples
 
-### Contrastive Analysis
+<h3 id="contrastive-analysis" style="color:#1f4e79;">
+  Contrastive Analysis
+</h3>
+
 <p align="center">
   <img src="CA_problems_examples.png" width="800px"/>
   <br>

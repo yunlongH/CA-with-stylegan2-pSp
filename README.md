@@ -15,7 +15,7 @@ Recent advancements in image synthesis have enabled high-quality image generatio
 ### ***Contrastive Analysis***
 
 <p align="center">
-  <img src="CA_problems_examples.png" width="800px"/>
+  <img src="caproblem.png" width="800px"/>
   <br>
   <span style="display:inline-block; max-width:800px; text-align:justify;">
     Our framework learns <i>common</i> and <i>salient</i> factors for 

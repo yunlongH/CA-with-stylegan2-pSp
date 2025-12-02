@@ -24,6 +24,16 @@ Recent advancements in image synthesis have enabled high-quality image generatio
   </span>
 </p>
 
+### ***Different facial attributes***
+<p align="center">
+  <img src="examples/different_facial_attributes.png" width="800px"/>
+  <br>
+  <span style="display:inline-block; max-width:800px; text-align:justify;">
+    Reconstructions and swapping on different attributes for <b>Background / Target</b> problem (X/Y).
+  </span>
+</p>
+
+
 ### ***Latent Interpolations***
 <p align="center">
   <img src="examples/interpolation_a_b.png" width="800px"/>

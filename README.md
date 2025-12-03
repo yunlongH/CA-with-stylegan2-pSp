@@ -48,7 +48,7 @@ Recent advancements in image synthesis have enabled high-quality image generatio
   </span>
 </p>
 
-### ***Animal images: Cat (X) vs. Dog (Y)***
+### ***Animal images transforms: Cat (X) vs. Dog (Y)***
 
 <p align="center">
   <img src="examples/CatsDogs.png" width="600px"/>
@@ -58,7 +58,7 @@ Recent advancements in image synthesis have enabled high-quality image generatio
   </span>
 </p>
 
-### ***Medical Imaging (brain MRI scans)***
+### ***Medical image manipulation (brain MRI scans)***
 
 <p align="center">
   <img src="examples/brats_swap_sxsy_v1.png" width="600px"/>

@@ -11,6 +11,14 @@ Recent advancements in image synthesis have enabled high-quality image generatio
 
 ## Qualitative Examples
 
+### ***Reconstruction and Attributes swapping***
+<p align="center">
+  <img src="examples/different_facial_attributes.png" width="800px"/>
+  <br>
+  <span style="display:inline-block; max-width:800px; text-align:justify;">
+    Reconstructions and swapping on different attributes for <b>Background / Target</b> problem (X/Y).
+  </span>
+</p>
 
 ### ***Contrastive Analysis***
 
@@ -23,16 +31,6 @@ Recent advancements in image synthesis have enabled high-quality image generatio
     It handles the typical <b>Background / Target</b> problem (X/Y), where only the target dataset (Y) contains a single salient attribute (e.g., glasses) absent from the background (X); the <b>Multiple-Attributes</b> setting, where the target dataset (Y) contains multiple salient attributes (e.g., glasses and smile); and the more challenging <b>Multiple-Salient</b> setting, where each of the datasets (X and Y) has its own distinct salient attribute (e.g., glasses in X, smile in Y).
   </span>
 </p>
-
-### ***Different facial attributes***
-<p align="center">
-  <img src="examples/different_facial_attributes.png" width="800px"/>
-  <br>
-  <span style="display:inline-block; max-width:800px; text-align:justify;">
-    Reconstructions and swapping on different attributes for <b>Background / Target</b> problem (X/Y).
-  </span>
-</p>
-
 
 ### ***Latent Interpolations***
 <p align="center">

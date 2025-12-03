@@ -32,7 +32,7 @@ Recent advancements in image synthesis have enabled high-quality image generatio
   </span>
 </p>
 
-### ***Latent Interpolations***
+### ***Interpolations along salient factors***
 <p align="center">
   <img src="examples/interpolation_a_b.png" width="800px"/>
   <br>

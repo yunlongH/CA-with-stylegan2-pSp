@@ -205,7 +205,7 @@ python train_cs/train_common_salient_baseline.py \
 ```
 
 Alternatively, modify `train_common_salient_full.py` to train the CS model **with image losses**.  
-In this case, you may need fewer training steps (around **4000**) to achieve good performance.
+In this case, you may need more training steps (around **4000**) to achieve good performance.
 
 ## CS-Asyrp (h-space of U-Net)
 

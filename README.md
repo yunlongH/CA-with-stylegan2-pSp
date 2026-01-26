@@ -11,7 +11,6 @@ Recent advancements in image synthesis have enabled high-quality image generatio
 
 ## Overview of Architectures
 
-### ***Reconstruction and Attributes swapping***
 <p align="center">
   <img src="examples/architecture.png" width="800px"/>
   <br>

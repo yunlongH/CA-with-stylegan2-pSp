@@ -13,7 +13,7 @@ Recent advancements in image synthesis have enabled high-quality image generatio
 
 ### ***Reconstruction and Attributes swapping***
 <p align="center">
-  <img src="examples/architecture" width="800px"/>
+  <img src="examples/architecture.png" width="800px"/>
   <br>
   <span style="display:inline-block; max-width:800px; text-align:justify;">
     Overview of the proposed CA framework instantiated with a StyleGAN-based architecture (left) and a DDIM-based diffusion model (right).

@@ -1,8 +1,11 @@
 
 
-# Official PyTorch implementation of **CS-StyleGAN and CS-Diffusion**, from the paper:<br>
-## **“Learning Common and Salient Generative Factors Between Two Image Datasets”**  
-[arXiv](https://arxiv.org/abs/2512.12800)
+# Official PyTorch implementation of CS-StyleGAN and CS-Diffusion
+
+[![arXiv](https://arxiv.org/abs/2512.12800)](https://arxiv.org/abs/2512.12800)
+
+From the paper:  
+**Learning Common and Salient Generative Factors Between Two Image Datasets**
 
 ## Abstract
 

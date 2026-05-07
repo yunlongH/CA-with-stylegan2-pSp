@@ -1,7 +1,7 @@
 
 # Official PyTorch implementation of the paper:
 
-**Learning Common and Salient Generative Factors Between Two Image Datasets**
+*Learning Common and Salient Generative Factors Between Two Image Datasets*
 
 [![arXiv](https://img.shields.io/badge/arXiv-2512.12800-b31b1b.svg)](https://arxiv.org/abs/2512.12800)
 
@@ -23,12 +23,12 @@ Recent advancements in image synthesis have enabled high-quality image generatio
 
 ## Qualitative Examples
 
-### ***Reconstruction and Attributes swapping***
+### ***Image Manipulation***
 <p align="center">
   <img src="examples/different_facial_attributes.png" width="800px"/>
   <br>
   <span style="display:inline-block; max-width:800px; text-align:justify;">
-    Reconstructions and swapping on different attributes for <b>Background / Target</b> problem (X/Y).
+    Reconstructions and editing on different facial attributes between images from the <b>Background (X)</b> and <b>Target (Y)</b> datasets.
   </span>
 </p>
 

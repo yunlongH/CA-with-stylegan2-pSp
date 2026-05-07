@@ -30,7 +30,7 @@ Recent advancements in image synthesis have enabled high-quality image generatio
   </span>
 </p>
 
-### ***For Contrastive Analysis***
+### ***Contrastive Analysis***
 
 <p align="center">
   <img src="examples/caproblem.png" width="800px"/>

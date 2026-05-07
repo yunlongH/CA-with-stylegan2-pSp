@@ -1,7 +1,7 @@
 
 # Official PyTorch implementation of the paper:
 
-*Learning Common and Salient Generative Factors Between Two Image Datasets*
+# Learning Common and Salient Generative Factors Between Two Image Datasets #
 
 [![arXiv](https://img.shields.io/badge/arXiv-2512.12800-b31b1b.svg)](https://arxiv.org/abs/2512.12800)
 
